@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "totalResults": 8052,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Gizmodo.com"
+      },
+      "author": "Mike Pearl",
+      "title": "Bitcoin Mining is Being Used to Offset Heating Costs in Greenhouses and Homes",
+      "description": "Of course, bitcoin critics would argue there is nothing truly gained here in terms of energy efficiency.",
+      "url": "https://gizmodo.com/bitcoin-mining-is-being-used-to-offset-heating-costs-in-greenhouses-and-homes-2000708684",
+      "urlToImage": "https://gizmodo.com/app/uploads/2026/01/btc-heat-1200x675.jpg",
+      "publishedAt": "2026-01-11T21:10:17Z",
+      "content": "One of the side effects of the energy-intensive process of bitcoin mining is the excess heat that is created by the involved hardware devices."
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gizmodo.com"
+      },
+      "author": "Kyle Torpey",
+      "title": "Trump’s National Bitcoin Reserve Is Still in the Works. Some States Have Already Taken Action on Theirs",
+      "description": "Arizona, New Hampshire, and Texas have enacted laws aimed at creating their own reserves.",
+      "url": "https://gizmodo.com/trumps-national-bitcoin-reserve-is-still-in-the-works-some-states-have-already-taken-action-on-theirs-2000711467",
+      "urlToImage": "https://gizmodo.com/app/uploads/2026/01/shutterstock_2708601327-1200x675.jpg",
+      "publishedAt": "2026-01-18T10:00:56Z",
+      "content": "During his 2024 U.S. presidential run, then-candidate Donald Trump promised to establish a strategic bitcoin reserve."
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Emma Roth",
+      "title": "Two cybersecurity employees plead guilty to carrying out ransomware attacks",
+      "description": "Two former employees at cybersecurity firms have pleaded guilty to carrying out a series of ransomware attacks.",
+      "url": "https://www.theverge.com/news/851467/cybersecurity-employees-plead-guilty-alphv-blackcat-ransomware",
+      "urlToImage": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/23318435/akrales_220309_4977_0232.jpg",
+      "publishedAt": "2025-12-30T18:32:27Z",
+      "content": "The pair targeted several companies with ALPHV / BlackCat ransomware and extorted $1.2 million in Bitcoin."
+    }
+  ]
+}
