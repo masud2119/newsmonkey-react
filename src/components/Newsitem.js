@@ -1,56 +1,21 @@
 import React, { Component } from "react";
 
-export class NewsItem extends Component {
+export default class NewsItem extends Component {
   render() {
-    let {
-      title = "No Title Available",
-      description = "No description available.",
-      imageUrl,
-      newsUrl,
-      author = "Unknown",
-      date,
-      source = "Unknown",
-    } = this.props;
+    const { title, description, imageUrl, newsUrl, source } = this.props;
 
     return (
-      <div className="my-3">
-        <div className="card">
-          <span
-            className="position-absolute top-0 translate-middle badge rounded-pill bg-danger"
-            style={{ left: "90%", zIndex: "1" }}
-          >
-            {source}
-          </span>
-
-          <img
-            src={imageUrl || "https://via.placeholder.com/300x200.png?text=No+Image"}
-            className="card-img-top"
-            alt="news"
-          />
-
-          <div className="card-body">
-            <h5 className="card-title">{title}</h5>
-            <p className="card-text">{description}</p>
-
-            <p className="card-text">
-              <small className="text-muted">
-                By {author} {date ? `on ${new Date(date).toGMTString()}` : ""}
-              </small>
-            </p>
-
-            <a
-              href={newsUrl}
-              target="_blank"
-              rel="noreferrer"
-              className="btn btn-sm btn-dark"
-            >
-              Read More
-            </a>
-          </div>
+      <div className="card my-3">
+        <span className="badge bg-danger">{source}</span>
+        <img src={imageUrl || "https://via.placeholder.com/300"} className="card-img-top" alt="" />
+        <div className="card-body">
+          <h5>{title}</h5>
+          <p>{description}</p>
+          <a href={newsUrl} className="btn btn-sm btn-dark" target="_blank" rel="noreferrer">
+            Read More
+          </a>
         </div>
       </div>
     );
   }
 }
-
-export default NewsItem;
